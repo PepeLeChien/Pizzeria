@@ -1,0 +1,354 @@
+/* Reclamo */
+.section-container {
+    position: relative;
+    z-index: 80;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+
+.section-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1440px) {
+    .section-body main {
+        margin-left: 1440px;
+        margin-right: 1440px;
+    }
+}
+
+.section-body main {
+    width: 100%;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container-princ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@media only screen and (max-width: 1235px) {
+    .subcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 24px 16px 0 16px;
+    }
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding: 32px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .container-data {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 32px;
+    }
+}
+
+.container-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 48px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .container-data .first {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.container-data .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 96px;
+    width: 100%;
+}
+
+.text-big {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Teachers", SoDoSans-Bold;
+}
+
+.text-small {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, .58);
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1235px) {
+    .container-data .third {
+        height: 100%;
+    }
+}
+
+.container-data .third {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 32px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .third .container-row .form-title {
+        font-size: 16px;
+    }
+}
+
+.form-title {
+    background-color: rgba(0, 98, 65, 1);
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .form-body .row-flex {
+        flex-direction: column;
+        padding: 0;
+        height: 100%;
+    }
+}
+
+.form-body .row-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 0 75px 0 75px;
+}
+
+@media only screen and (max-width: 1235px) {
+    .title-option {
+        flex-direction: column;
+        align-items: baseline;
+        gap: 0;
+    }
+}
+
+.title-option {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1235px) {
+    .internal-option {
+        flex-direction: column;
+        align-items: baseline;
+        gap: 0;
+    }
+}
+
+.internal-option {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.base-input {
+    width: 100%;
+    height: 35px;
+    outline: 1px solid rgba(0, 0, 0, .38);
+    border: transparent;
+    border-radius: 7px;
+    padding: 15px 0 15px 16px;
+    border-right: 16px solid transparent;
+}
+
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.input-select {
+    display: flex;
+    flex-direction: row;
+    gap: 103px;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    justify-content: center;
+}
+
+.input-select .select-one {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: end;
+    align-items: self-end;
+}
+
+.input-select .select-two {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: start;
+    align-items: self-end;
+}
+
+input[type='radio'] {
+    accent-color: var(--colorGreenAccent);
+}   
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.input-size {
+    width: 24px;
+    height: 24px;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+.textarea-option {
+    margin-top: 1.2rem;
+    width: 100%;
+    border: transparent;
+    border-radius: 8px;
+}
+
+.textarea-option>textarea {
+    width: 500px;    
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, .38);
+    min-height: 120px;
+    padding: 15px 15px 15px 16px;
+    border-radius: 8px;
+}
+
+textarea {
+    overflow: auto;
+}
+
+@media only screen and (max-width: 1235px) {
+    .container-data .second {
+        flex-direction: column;
+        height: 100%;
+        gap: 24px;
+    }
+}
+
+.second .summary {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 100%;
+    max-width: 1014px;
+}
+
+.text-small-four {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, .87);
+}
+
+.summary-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.text-big-two {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+}
